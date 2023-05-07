@@ -1,0 +1,71 @@
+.nav__ul{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: bold;
+    max-width: 100%;
+    padding: 1rem 0;
+    align-items: center;
+    list-style: none;
+    
+    color:black;
+    background-color: rgb(235, 223, 223);
+    border-bottom: 1px solid black;
+}
+
+
+.right-links{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav__links{
+    display:flex;
+    flex-direction: row;
+}
+
+.nav_button{
+    background-color: transparent;
+    padding:0rem 2rem;
+    
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    border:none;
+    
+}
+
+.nav_button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.nav__link>a{
+    margin: 0 2rem;
+    color:inherit;
+    text-decoration: none;
+}
+
+.nav__link>a:hover{
+    border-bottom: 2px solid black;
+}
+
+
+@media only screen and (max-width:600px){
+
+    .nav{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav__ul{
+        flex-direction: column;
+    }
+
+    .nav__link>a{
+        margin:0 0.5rem;
+    }
+}

@@ -1,0 +1,14 @@
+
+.product-card  {
+
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;;
+}
+
+.product-card:hover {
+  -webkit-transform:  scale(1.1);
+  -moz-transform:  scale(1.1);
+  transform:  scale(1.1);
+}

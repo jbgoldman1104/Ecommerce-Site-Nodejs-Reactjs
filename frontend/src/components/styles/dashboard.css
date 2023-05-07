@@ -1,0 +1,41 @@
+.dashboard_div{
+    width: 80%;
+    margin: auto;
+}
+
+.dashboard_form{
+    width:70%
+}
+
+.dashboard_product{
+    display:flex;
+    width: 50%;
+    justify-content: space-between;
+    border:1px solid gray;
+    border-radius: 5px;
+    align-items: center;
+    padding:.5rem;
+    margin-top:.5rem;
+}
+
+.product_button{
+    padding:0.25rem 1rem;
+    border:none;
+    background-color: rgb(170, 206, 170);
+    margin-left: 1rem;
+}
+
+.clr-green{
+    color:green;
+}
+
+.product_button:hover{
+    cursor:pointer;
+    background-color: rgb(141, 180, 141);
+}
+
+.approveIcon{
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+}

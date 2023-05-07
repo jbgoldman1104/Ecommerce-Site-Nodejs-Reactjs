@@ -1,0 +1,34 @@
+.cart_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.checkout_price {
+  text-align: end;
+}
+
+.cart_div_order {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.orderForm {
+  margin: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  width: 100%;
+}
+
+.title-add {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order_form_part {
+  display: flex;
+  align-items: center;
+}

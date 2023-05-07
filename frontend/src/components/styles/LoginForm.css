@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bebas+Neue&family=Dosis&display=swap');
+
+.form-div{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    margin:5rem auto;
+}
+
+.login-card{
+    flex:1;
+}
+
+
+.form{
+    flex:1;
+}
+
+.form-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0.5em 0;
+}
+
+.form-part>input,textarea{
+    padding: 0.25rem;
+}
+
+.form-part>label{
+    font-weight: bold;
+}
+
+.form>p{
+    font-size:1rem;
+}
+
+.btn{
+    padding:0.25rem 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    border:1px solid black;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: purple;
+    color:white;
+}
+
+.form-error{
+    color:red;
+}
+
+.loginform_h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 10px;
+}
+
+.loginform_p{
+    font-size: 1.4rem;
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.6;
+}
+
+@media only screen and (max-width:800px){
+    .form-div{
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width:600px){
+
+    .form-part>input,textarea{
+        width: 100%;
+    }
+}

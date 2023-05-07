@@ -1,0 +1,43 @@
+.home{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:5rem;
+    justify-content: space-evenly;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.home-img{
+    width: 30%;
+    border-radius: 10%;
+    
+}
+
+.home-header{
+    width: 50%;
+    justify-content: center;
+    
+}
+
+.home-header>h1,h2{
+    margin-bottom: 1rem;
+}
+
+.home-button{
+    padding:0.5rem 3rem;
+    margin:1rem 0;
+    background-color: transparent;
+    
+    border:1px solid black;
+    font-weight: bold;
+    font-size:1.3rem;
+    font-family: inherit;
+}
+
+.home-button:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+
+

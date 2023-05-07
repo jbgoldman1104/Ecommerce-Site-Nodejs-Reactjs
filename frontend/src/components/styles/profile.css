@@ -1,0 +1,158 @@
+.profile_card {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+  /* justify-content: center; */
+  flex: 1.5;
+  min-height: 100vh;
+}
+
+.profile_info {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.order {
+  border: 2px solid rgb(207, 195, 195);
+  margin: 1rem 0;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+.orders {
+  flex: 3;
+  min-height: 100vh;
+  border-left: 1px solid gray;
+  padding: 1rem;
+}
+
+.order_product {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  margin: 1rem 0;
+  /*  border: 1px solid rgb(207, 195, 195); */
+  border-radius: 5px;
+}
+
+.order_product_right {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.order_product_name {
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.order_product_price {
+  color: gray;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.order_product_image {
+  width: 75px;
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+
+.order_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.address_span {
+  color: teal;
+}
+
+.order_refund_button {
+  margin-top: 1rem;
+  padding: 0.4rem 2rem;
+  font-size: 0.9rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.order_refund_button:hover {
+  cursor: pointer;
+  background-color: rgb(224, 212, 224);
+}
+
+.total_price {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+}
+
+.total_price > span {
+  color: teal;
+  margin-right: 1rem;
+}
+
+.color-red {
+  border: 1px solid red;
+  color: red;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.mb-4 {
+  margin: 0.5rem 0;
+}
+
+.order_date {
+  color: red;
+}
+
+.pdf_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.filter_p {
+  font-size: 1.5rem;
+  color: rgb(28, 59, 28);
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.result {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(32, 46, 32);
+}
+
+.totalPrice {
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  font-weight: 400;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.totalPrice_price {
+  /* color: rgb(3, 85, 3); */
+  font-weight: 600;
+}
