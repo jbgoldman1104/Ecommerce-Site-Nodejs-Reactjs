@@ -1,4 +1,3 @@
-
 # Ecommerce Site
 
 This is the repository for my ecommerce site.
